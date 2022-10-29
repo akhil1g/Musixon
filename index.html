@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Musixon</title>
+	<link rel="icon" href="favicon.ico">
+	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&family=Sacramento&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="parent">
+	<!-- NavBar -->
+	<section id="title">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a href="index.html"><img src="musichead.png" class="title-img" alt="Musixon"><h1 class="title-heading">Musixon</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  				</button>
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  					<ul class="navbar-nav ml-auto">
+  						<li class="nav-item">
+				            <a class="nav-link" href="#footer">Login</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="#pricing">SignUp</a>
+				        </li>
+				        <li class="nav-item">
+				            <a class="nav-link" href="#cta">Download</a>
+				        </li>
+  					</ul>
+  				</div>
+			</nav>
+		</div>
+	</section>
+	<h1 class="title-heading heading1">Listen What You Love !! </h1><br>
+
+
+
+    <!-- 	Carousel -->
+    <section id="carouselmusic" class="container-fluid">
+    	<div>
+    	<div id="music-carousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+    		<ol class="carousel-indicators">
+    			<li data-target="#music-carousel" data-slide-to="0" class="active"></li>
+    			<li data-target="#music-carousel" data-slide-to="1"></li>
+    			<li data-target="#music-carousel" data-slide-to="2"></li>
+    			<li data-target="#music-carousel" data-slide-to="3"></li>
+    			<li data-target="#music-carousel" data-slide-to="4"></li>
+    		</ol>
+    		<div class="carousel-inner">
+    			<div class="carousel-item active">
+    			<a href="">
+    				<img src="images/blindinglights_3_66.jpg" class="carouselimg">
+    				<div class="carousel-caption d-none d-md-block">
+    				<h5 class="carouselcaption">
+    				Blinding Lights
+    				</h5>
+    				<p class="carouselCaptionP">The Weeknd</p>
+    				</div>
+    			</a>
+    			</div>
+    			<div class="carousel-item">
+    			<a href="">
+    				<img src="images/eminem_66.jpg" class="carouselimg">
+    				<div class="carousel-caption d-none d-md-block">
+    				<h5 class="carouselcaption">
+    				Music To The Murdered
+    				</h5>
+    				<p class="carouselCaptionP">Eminem</p>
+    				</div>
+    			</a>
+    			</div>
+    			<div class="carousel-item">
+    				<a href="">
+    				<img src="images/carnivalking_66.jpg" class="carouselimg">
+    				<div class="carousel-caption d-none d-md-block">
+    				<h5 class="carouselcaption">
+    				The Carnival
+    				</h5>
+    				<p class="carouselCaptionP">King</p>
+    				</div>
+    				</a>
+    			</div>
+    			<div class="carousel-item">
+    				<a href="">
+    				<img src="images/kesariya_66.jpg" class="carouselimg">
+    				<div class="carousel-caption d-none d-md-block">
+    				<h5 class="carouselcaption">
+    				Kesariya
+    				</h5>
+    				<p class="carouselCaptionP">Arijit Singh</p>
+    				</div>
+    				</a>
+    			</div>
+    			<div class="carousel-item">
+    				<a href="">
+    				<img src="images/jbpurpose_66.webp" class="carouselimg">
+    				<div class="carousel-caption d-none d-md-block">
+    				<h5 class="carouselcaption">
+    				The Purpose Tour
+    				</h5>
+    				<p class="carouselCaptionP">Justin Bieber</p>
+    				</div>
+    				</a>
+    			</div>
+    		</div>
+    		<a class="carousel-control-prev" href="#music-carousel" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#music-carousel" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		</a>
+    	</div>
+   </div>
+    </section>
+
+    <!-- songs -->
+    <section id="songs">
+    	<!-- div class="row">
+    		<div class="col-lg-3">
+    			<img src="images/blindinglights_3_66.jpg">
+    			
+    		</div>
+    		
+    	</div>
+ -->    </section>
+
+    <!-- artists -->
+    <section id="artists"></section>
+
+    <!-- player -->
+    <div class="player">
+	<i class="fas fa-play-circle ico"></i>    </div>
+
+    <!-- footer -->
+    <section id="footer"></section>
+
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
