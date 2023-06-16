@@ -1,7 +1,7 @@
 body
 {
 	background-color: #000000;
-	/*background-image: url("bg.jpg");*/
+	background-image: url("bg.jpg");
 }
 .container-fluid{
 	padding: 3% 7%;
@@ -37,6 +37,7 @@ a:hover{
 	margin: 1.2rem;
 	text-align: center;
 	width: 80%;
+	cursor: pointer;
 }
 #carouselmusic{
 	text-align: center;
